@@ -14,6 +14,6 @@ VOLUME /opt/data
 
 COPY start-firestore .
 
-EXPOSE 8080
+EXPOSE 8200
 
 ENTRYPOINT ["./start-firestore"]
