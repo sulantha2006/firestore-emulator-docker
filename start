@@ -7,6 +7,7 @@ if [[ -z "${FIRESTORE_PROJECT_ID}" ]]; then
   exit 1
 fi
 
+
 # Config gcloud project
 gcloud config set project ${FIRESTORE_PROJECT_ID}
 
