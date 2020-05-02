@@ -12,8 +12,8 @@ RUN apk add --update --no-cache openjdk8-jre &&\
 # Volume to persist Datastore data
 VOLUME /opt/data
 
-COPY start-firestore .
+COPY start .
 
 EXPOSE 8200
 
-ENTRYPOINT ["./start-firestore"]
+ENTRYPOINT ["./start"]
